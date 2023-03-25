@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{55fcdcad-235e-48ae-a9ab-4236002a0637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\base">
+      <UniqueIdentifier>{c67b4254-890a-443f-b707-89cb66c6a548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\log">
+      <UniqueIdentifier>{ac1db1aa-b2fe-4358-a5d2-57456dd9304b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\color">
+      <UniqueIdentifier>{cad3fb16-32ab-4105-b7b2-dc1182d7a198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\math">
+      <UniqueIdentifier>{203d727b-865b-4f16-89eb-1fad4602b5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta">
+      <UniqueIdentifier>{e31fad9f-6939-4e50-8838-84cf87731193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plateform">
+      <UniqueIdentifier>{43562ee4-5c58-4e05-bc36-6a33a6a5e803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{cb1420eb-4fde-4fdf-ac5c-368e46316c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{052caaf9-e2e7-4322-a206-b843df0d0f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\animation">
+      <UniqueIdentifier>{58a7b12d-f245-4bfb-b9a3-9da67ddc0ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\character">
+      <UniqueIdentifier>{c9f3c373-3964-49e8-b206-01d40a8b3820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\controller">
+      <UniqueIdentifier>{bbb9349a-b1df-417d-a503-57f1c7c43975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework">
+      <UniqueIdentifier>{aa5df880-41cd-4ec9-b8cd-a8b230769d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\global">
+      <UniqueIdentifier>{5070b4a8-2622-449f-9165-0bc370ff7f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\input">
+      <UniqueIdentifier>{a159648a-df18-403f-8c50-163075b85589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\particle">
+      <UniqueIdentifier>{0e443012-4f9a-42e3-80ce-c7324e42a39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\ui">
+      <UniqueIdentifier>{fa1821bb-60fe-4497-ab95-d62840afb789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\physics">
+      <UniqueIdentifier>{d02b25a7-20d2-4175-9c64-eab799fea342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render">
+      <UniqueIdentifier>{dbfd8373-76a1-45b6-bcc2-23d1a14abac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{9eec2bf9-d3cd-47b4-9d52-cab9e7ec6078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\asset_manager">
+      <UniqueIdentifier>{3f7d5d41-937e-4c2f-bda2-1429ba372e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\config_manager">
+      <UniqueIdentifier>{134a7bf8-9d50-425e-838a-27fd306de318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type">
+      <UniqueIdentifier>{a8bf4a0a-ed9d-488f-9ab9-370791f748c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\logSys.cpp">
+      <Filter>core\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\FileSys.cpp">
+      <Filter>plateform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\reflection.cpp">
+      <Filter>core\meta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\json\json11.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\math.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\serializer.cpp">
+      <Filter>core\meta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\vector3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\vector2.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\matrix3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\matrix4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\vector4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\quaternion.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\axis_aligned.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\resource\asset_manager\asset_manager.cpp">
+      <Filter>resource\asset_manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\runtime\FileSys.hpp">
+      <Filter>plateform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\logSys.hpp">
+      <Filter>core\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\macro.hpp">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\reflection.hpp">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json\json11.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\color.h">
+      <Filter>core\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\math.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\random.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\serializer.hpp">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\vector2.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\vector3.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\matrix3.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\matrix4.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\vector4.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\quaternion.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\transform.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\axis_aligned.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\math_header.hpp">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\hash.hpp">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\resource\asset_manager\asset_manager.hpp">
+      <Filter>resource\asset_manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
